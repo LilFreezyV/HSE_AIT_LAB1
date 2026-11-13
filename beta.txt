@@ -1,1 +1,1 @@
-test2
+test2second change of beta.txt
