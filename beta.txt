@@ -1,1 +1,1 @@
-test2second change of beta.txt
+test2second change of beta.txtmerge branch change
