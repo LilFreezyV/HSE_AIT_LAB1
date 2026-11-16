@@ -1,1 +1,1 @@
-test2second change of beta.txtmerge branch change
+test2second change of beta.txtmerge branch changechange from first clone
