@@ -16,10 +16,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Scan for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --results=verified,unverified,unknown
 
       - name: Check required files
         run: |
           test -s .github/PULL_REQUEST_TEMPLATE.md
           test -s .gitignore
           test -s alpha.txt
-
