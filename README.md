@@ -1,6 +1,6 @@
 # HSE_AIT_LAB1
 
-A small repository for practicing Git and GitHub workflows.
+A Git workflow practice repository for practicing Git and GitHub workflows.
 
 ## Main files
 
