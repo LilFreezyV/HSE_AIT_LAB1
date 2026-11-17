@@ -22,7 +22,7 @@ jobs:
       - name: Scan for secrets
         uses: trufflesecurity/trufflehog@main
         with:
-          extra_args: --results=verified,unverified,unknown
+          extra_args: --results=verified,unverified,unknown --exclude-globs=trufflehog-test.txt
 
       - name: Check required files
         run: |
