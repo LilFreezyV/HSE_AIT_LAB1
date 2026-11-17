@@ -1,1 +1,1 @@
-22e2jjeijcjcidjw3j3j93j9j39fj39
+DATABASE_URL=postgresql://FAKE_USER:FAKE_SECRET@db:5432
